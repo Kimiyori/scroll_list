@@ -1,0 +1,8 @@
+.error-boundary-container {
+  padding: 24px;
+  text-align: center;
+}
+
+.error-boundary-alert {
+  margin-bottom: 24px;
+}

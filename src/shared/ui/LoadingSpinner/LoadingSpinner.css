@@ -1,0 +1,7 @@
+@import "@/shared/theme/tokens.css";
+
+.loading-spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

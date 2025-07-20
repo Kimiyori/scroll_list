@@ -1,0 +1,31 @@
+@import "@/shared/theme/tokens.css";
+
+.news-feed-list {
+  padding: 0;
+  min-height: 100vh;
+}
+
+.news-feed-error,
+.news-feed-empty {
+  padding: var(--spacing-xl) var(--spacing-lg);
+  text-align: center;
+}
+
+.news-feed-loader {
+  margin: var(--spacing-lg) 0;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.news-feed-end {
+  text-align: center;
+  padding: var(--spacing-lg);
+  font-style: italic;
+}
+
+.news-feed-end p {
+  margin: 0;
+}
