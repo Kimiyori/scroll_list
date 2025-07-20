@@ -36,6 +36,7 @@ jobs:
         run: npm run build
         env:
           NODE_ENV: production
+          VITE_BASE_PATH: ${{ secrets.VITE_BASE_PATH }}
 
       - name: Upload to GitHub Pages
         uses: actions/upload-pages-artifact@v3
